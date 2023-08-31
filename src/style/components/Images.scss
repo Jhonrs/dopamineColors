@@ -14,7 +14,7 @@
 
 
 .sectionTwo {
-    $image-padding-left: rem(-186);
+    $image-padding-left: rem(-368);
 
     background-image: url(/src/assets/2.png);
     background-size: cover;
@@ -22,6 +22,7 @@
 
     @include breakpoint(425px) {
         background-position: $image-padding-left center;
+        background-size: 250%;
     }
 }
 
@@ -50,4 +51,8 @@
     background-size: 50%; 
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.modelFour{
+    width: 40%;
 }

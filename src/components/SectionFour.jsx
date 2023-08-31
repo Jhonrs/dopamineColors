@@ -12,7 +12,7 @@ export const SectionFour = () => {
         </div>
         <div className="row py-5">
           <div className="col-lg-4">
-            <div className="ps-5">
+            <div className="ps-md-5">
               <p className="">
                 Un estampado tropical protagonizado por tonos vibrante es la
                 mejor forma de darle todo el color a tu estilo para empezar el
@@ -21,8 +21,8 @@ export const SectionFour = () => {
               <button className="btn btn-warning">Comprar ahora</button>
             </div>
           </div>
-          <div className="col-lg-8 position-relative">
-            <img className="position-absolute" src="./src/assets/5.png" alt="" />
+          <div className="col-lg-8 d-none d-lg-block position-relative">
+            <img className="modelFour position-absolute" src="./src/assets/5.png" alt="" />
           </div>
         </div>
       </article>
