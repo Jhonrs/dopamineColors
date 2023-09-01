@@ -3,7 +3,7 @@ import React from "react";
 export const MainSection = () => {
   return (
     <section>
-      <article className="mainSectionbg">
+      <article className="main-sectionbg">
         <div className="container">
           <div className="row justify-content-end row justify-content-end  align-items-lg-center min-height-100">
             <div className="col-6">

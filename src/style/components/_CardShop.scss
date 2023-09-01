@@ -1,10 +1,25 @@
 @use "../abstract/mixin" as *;
 
-.cardShop{
-    position: absolute;
-    bottom: 30px;
-    left: 10%;
-    @include breakpoint(425px) {
+.card-shop {
+    &-section--two {
+        position: absolute;
+        bottom: 30px;
+        left: 9%;
+        width: 40%;
+    }
+
+    &-section--three{
         position: initial;
+    }
+
+    @include breakpoint(425px) {
+        &--section-two{
+            position: initial;
+            width: initial;
+        }
+
+        &-section--three{
+            position: initial;
+        }
     }
 }

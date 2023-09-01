@@ -1,36 +1,36 @@
 import React from "react";
+import { CardShop } from "./cardShop";
 
 export const SectionThree = () => {
   return (
     <section className="my-5">
-      <article className="sectionThree min-height-100">
+      <article className="section-three min-height-100">
         <div className="container">
           <div className="row ">
             <div className="col-6 d-none d-lg-block position-relative">
               <img
-                className="img-fluid modelThree--dos position-absolute "
+                className="img-fluid model-three--dos position-absolute "
                 src="./src/assets/3.2.jpg"
                 alt=""
               />
               <img
-                className="img-fluid modelThree position-absolute "
+                className="img-fluid model-three position-absolute "
                 src="./src/assets/3.png"
                 alt=""
               />
             </div>
-            <div className="col-lg-6">
-              <h3 className="h3 text-white">Complementos</h3>
-              <h2 className="h2 text-white">Audaces</h2>
-              <p>
+            <div className="col-lg-6 py-5">
+              <div>
+                <h2 className=" text-medium text-medium--section-three">Complementos</h2>
+                <h3 className="text-large text-large--section-three">
+                  Audaces
+                </h3>
+              </div>
+              <p className="text-paragraph">
                 Un bolso de color llamativo le aporta dinamismo y creatividad a
                 tu look
               </p>
-              <div className="d-flex flex-column justify-content align-items-center">
-                <img className="w-50" src="./src/assets/bolso.png" alt="" />
-                <button className="btn btn-warning mt-3">
-                  Comprar ahora
-                </button>
-              </div>
+             <CardShop url={"./src/assets/bolso.png"}/>
             </div>
           </div>
         </div>

@@ -1,6 +1,6 @@
 @use "../abstract/mixin" as *;
 
-.mainSectionbg {
+.main-sectionbg {
     $image-padding-left: rem(-186);
 
     background-image: url(/src/assets/1.png);
@@ -13,7 +13,7 @@
 }
 
 
-.sectionTwo {
+.section-two {
     $image-position-left: -22rem;
     $image-position-right: -4rem;
 
@@ -27,7 +27,7 @@
     }
 }
 
-.sectionThree{
+.section-three{
 
     $image-padding-left: rem(-368);
 
@@ -43,31 +43,33 @@
 
 }
 
-.modelThree{
-    right: 8%;
-    bottom: 2%;
-    width: 35%;
+.model-three{
+    right: 5%;
+    bottom: -3%;
+    width: 43%;
 }
 
-.modelThree--dos{
+.model-three--dos{
+
     left: -20%;
-    bottom: 9%;
-    width: 50%;
+    bottom: 18%;
+    width: 45%;
+
 }
 
-.sectionFour{
+.section-four{
     $image-padding-left: rem(-368);
     background-image:url(/src/assets/4.png) ;
-    background-size: 50%; 
+    background-size: 54%; 
     background-repeat: no-repeat;
     background-position: right;
 
     @include breakpoint(425px) {
-        background-position: $image-padding-left center;
-        background-size: 250%;
+        background-position: -2rem center;
+        background-size: 150%;
     }
 }
 
-.modelFour{
+.model-four{
     width: 40%;
 }
