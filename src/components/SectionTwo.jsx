@@ -7,7 +7,7 @@ export const SectionTwo = () => {
       <section className="container">
         <div className="row min-height-100">
           <div className="col-lg-6 col-6">
-            <h2 className="text-large text-large--section-two"><i>Looks</i></h2>
+            <h2 className="text-large text-large-section--two"><i>Looks</i></h2>
             <h3 className="text-medium  text-white">Equilibrados</h3>
 
             <p className="">
@@ -17,7 +17,7 @@ export const SectionTwo = () => {
           </div>
         </div>
       </section>
-      <CardShop  Styleclass={"card-shop"} url={"./src/assets/calzado.png"}/>
+      <CardShop heightImg={"w-50"} Styleclass={"card-shop card-shop-section--two"} url={"./src/assets/calzado.png"}/>
     </div>
   );
 };

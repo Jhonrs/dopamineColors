@@ -6,20 +6,18 @@
         bottom: 30px;
         left: 9%;
         width: 40%;
-    }
 
-    &-section--three{
-        position: initial;
-    }
-
-    @include breakpoint(425px) {
-        &--section-two{
+        @include breakpoint(425px) {
             position: initial;
             width: initial;
         }
+    }
 
-        &-section--three{
-            position: initial;
+    &-section--three {
+        position: static;
+        @include breakpoint(425px) {
+            position: ab;
+            width: initial;
         }
     }
 }
