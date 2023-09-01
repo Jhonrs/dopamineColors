@@ -22,17 +22,32 @@ p{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0.2em;
     color: white;
+
+    &--sectionTwo{
+        
+    }
     
 
     @include breakpoint(425px) {
         font-size: rem(21);
         padding-top: 140px;
+
+        &--sectionTwo{
+            font-size: 56px;
+            padding-top: 55px;
+
+        }
     }
 
 }
 
 .text-medium {
     font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    @include breakpoint(425px) {
+        font-size: rem(32);
+            }
+
 }
 
 .hidden {

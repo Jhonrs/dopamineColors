@@ -14,23 +14,32 @@
 
 
 .sectionTwo {
-    $image-padding-left: rem(-368);
+    $image-position-left: -22rem;
+    $image-position-right: -4rem;
 
     background-image: url(/src/assets/2.png);
     background-size: cover;
     background-repeat: no-repeat;
 
     @include breakpoint(425px) {
-        background-position: $image-padding-left center;
+        background-position: $image-position-left $image-position-right;
         background-size: 250%;
     }
 }
 
 .sectionThree{
+
+    $image-padding-left: rem(-368);
+
     background-image:url(/src/assets/fondo.png) ;
     background-size: 43% 100%;
     background-repeat: no-repeat;
     background-position-y: bottom;
+
+    @include breakpoint(425px) {
+        background-position: $image-padding-left center;
+        background-size: 250%;
+    }
 
 }
 
@@ -47,10 +56,16 @@
 }
 
 .sectionFour{
+    $image-padding-left: rem(-368);
     background-image:url(/src/assets/4.png) ;
     background-size: 50%; 
     background-repeat: no-repeat;
     background-position: right;
+
+    @include breakpoint(425px) {
+        background-position: $image-padding-left center;
+        background-size: 250%;
+    }
 }
 
 .modelFour{

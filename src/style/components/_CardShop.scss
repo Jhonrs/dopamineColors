@@ -1,0 +1,10 @@
+@use "../abstract/mixin" as *;
+
+.cardShop{
+    position: absolute;
+    bottom: 30px;
+    left: 10%;
+    @include breakpoint(425px) {
+        position: initial;
+    }
+}

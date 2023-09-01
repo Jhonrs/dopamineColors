@@ -19,8 +19,8 @@ export const SectionThree = () => {
               />
             </div>
             <div className="col-lg-6">
-              <h3 className="h3">Complementos</h3>
-              <h2 className="h2">Audaces</h2>
+              <h3 className="h3 text-white">Complementos</h3>
+              <h2 className="h2 text-white">Audaces</h2>
               <p>
                 Un bolso de color llamativo le aporta dinamismo y creatividad a
                 tu look
@@ -28,8 +28,7 @@ export const SectionThree = () => {
               <div className="d-flex flex-column justify-content align-items-center">
                 <img className="w-50" src="./src/assets/bolso.png" alt="" />
                 <button className="btn btn-warning mt-3">
-                  {" "}
-                  Comprar ahora{" "}
+                  Comprar ahora
                 </button>
               </div>
             </div>
