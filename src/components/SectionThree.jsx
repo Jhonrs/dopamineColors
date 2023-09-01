@@ -10,12 +10,12 @@ export const SectionThree = () => {
             <div className="col-6 position-relative">
               <img
                 className="img-fluid d-none d-lg-block  model-three--dos position-absolute "
-                src="./src/assets/3.2.jpg"
+                src="/assets/3.2.jpg"
                 alt=""
               />
               <img
                 className="img-fluid model-three position-absolute "
-                src="./src/assets/3.png"
+                src="/assets/3.png"
                 alt=""
               />
             </div>
@@ -30,7 +30,7 @@ export const SectionThree = () => {
                 Un bolso de color llamativo le aporta dinamismo y creatividad a
                 tu look
               </p>
-             <CardShop heightImg={"w-75"} url={"./src/assets/bolso.png"}/>
+             <CardShop heightImg={"w-75"} url={"/assets/bolso.png"}/>
             </div>
           </div>
         </div>

@@ -3,7 +3,7 @@
 .main-sectionbg {
     $image-padding-left: rem(-186);
 
-    background-image: url(/src/assets/1.png);
+    background-image: url(/assets/1.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -16,7 +16,7 @@
     $image-position-left: -22rem;
     $image-position-right: -4rem;
 
-    background-image: url(/src/assets/2.png);
+    background-image: url(/assets/2.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -29,7 +29,7 @@
 .section-three {
     $image-padding-left: rem(-368);
 
-    background-image: url(/src/assets/fondo.png);
+    background-image: url(/assets/fondo.png);
     background-size: 43% 100%;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -60,7 +60,7 @@
 
 .section-four {
     $image-padding-left: rem(-368);
-    background-image: url(/src/assets/4.png);
+    background-image: url(/assets/4.png);
     background-size: 54%;
     background-repeat: no-repeat;
     background-position: right;

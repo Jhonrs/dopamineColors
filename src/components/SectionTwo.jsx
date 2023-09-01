@@ -17,7 +17,7 @@ export const SectionTwo = () => {
           </div>
         </div>
       </section>
-      <CardShop heightImg={"w-50"} Styleclass={"card-shop card-shop-section--two"} url={"./src/assets/calzado.png"}/>
+      <CardShop heightImg={"w-50"} Styleclass={"card-shop card-shop-section--two"} url={"/assets/calzado.png"}/>
     </div>
   );
 };

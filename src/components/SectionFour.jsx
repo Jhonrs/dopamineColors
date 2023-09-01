@@ -31,7 +31,7 @@ export const SectionFour = () => {
             <div className="col-lg-8 d-none d-lg-block position-relative">
               <img
                 className="model-four position-absolute"
-                src="./src/assets/5.png"
+                src="/assets/5.png"
                 alt=""
               />
             </div>
